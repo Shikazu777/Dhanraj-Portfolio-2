@@ -1,125 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Dhanraj N | Full Stack Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+
+  <!-- ICONS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <h2 class="logo">Dhanraj</h2>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
 <!-- HERO -->
-<section id="home" class="hero">
-  <div class="hero-text">
+<section class="hero">
+  <div class="hero-left">
     <h1>Dhanraj N</h1>
     <h3>Full Stack Developer</h3>
 
-    <div class="socials">
-      <a href="#">Email Me</a>
-      <a href="#">GitHub</a>
-      <a href="#">LinkedIn</a>
+    <div class="links">
+      <a href="mailto:iamdhanrajn@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://github.com/Shikazu777" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/dhanraj-nagarajan-a9b52537b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
 
-    <a class="btn" href="#">Download Resume</a>
+    <a class="resume-btn" href="resume.pdf" target="_blank">Download Resume</a>
   </div>
 
-  <img src="assets/profile.jpg" alt="Profile" class="hero-img">
+  <img src="assets/profile.jpg" class="hero-img">
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="section light">
+<section class="about">
   <h2>About Me</h2>
   <p>
-    Passionate full stack developer with experience in building and maintaining
-    scalable web applications. Focused on clean architecture and real-world solutions.
+    I am a passionate Full Stack Developer with hands-on experience in building responsive, scalable, and user-focused web applications. I enjoy working across the full development lifecycle — from designing clean user interfaces to implementing efficient backend logic and database integration.
+
+I have experience developing real-world projects such as e-commerce platforms, real-time chat applications, and form-driven systems with validation and authentication. My technical skill set includes modern frontend technologies like HTML, CSS, JavaScript, and React, along with backend tools such as Node.js, Express, MongoDB, and MySQL.
+
+I strongly focus on writing clean, maintainable code and following best practices in version control using Git. I enjoy solving problems, learning new technologies, and continuously improving my skills by building practical projects rather than relying only on theory.
+
+I am currently seeking opportunities where I can contribute as a developer, grow alongside an experienced team, and work on impactful products that solve real-world problems.
   </p>
-  <a class="btn" href="#">Download Resume</a>
 </section>
 
 <!-- SKILLS -->
-<section id="skills" class="section dark">
+<section class="skills">
   <h2>Skills</h2>
-  <div class="skills">
-    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
-    <span>Node.js</span><span>Express</span><span>MongoDB</span><span>MySQL</span>
-    <span>Python</span><span>Java</span><span>Git</span><span>REST API</span>
-  </div>
+
+  <div class="skill-grid">
+  <div><i class="fa-brands fa-html5 html"></i><span>HTML</span></div>
+  <div><i class="fa-brands fa-css3-alt css"></i><span>CSS</span></div>
+  <div><i class="fa-brands fa-js js"></i><span>JavaScript</span></div>
+  <div><i class="fa-brands fa-react react"></i><span>React</span></div>
+  <div><i class="fa-brands fa-node node"></i><span>Node.js</span></div>
+  <div><i class="fa-solid fa-server express"></i><span>Express</span></div>
+  <div><i class="fa-solid fa-database mongo"></i><span>MongoDB</span></div>
+  <div><i class="fa-solid fa-database mysql"></i><span>MySQL</span></div>
+  <div><i class="fa-brands fa-python python"></i><span>Python</span></div>
+  <div><i class="fa-brands fa-java java"></i><span>Java</span></div>
+  <div><i class="fa-brands fa-git-alt git"></i><span>Git</span></div>
+  <div><i class="fa-solid fa-cloud api"></i><span>REST API</span></div>
+</div>
+
 </section>
 
 <!-- PROJECTS -->
-<section id="projects" class="section dark">
+<section class="projects">
   <h2>Projects</h2>
 
-  <div class="projects">
+  <div class="project-grid">
     <div class="card">
       <img src="assets/project1.png">
-      <h3>E-Commerce Website</h3>
-      <p>Online shopping platform with cart and orders.</p>
-      <div class="buttons">
-        <a class="btn">Live Demo</a>
-        <a class="btn secondary">GitHub Code</a>
+      <h3>Pixelated Portfolio (game)</h3>
+      <p>a mini game like portfolio inspired from pokemon rpgs</p>
+      <div class="card-btns">
+        <a href="https://dhanraj-pixel-portfolio.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Shikazu777/pixel-portfolio" target="_blank">GitHub Code</a>
       </div>
     </div>
 
     <div class="card">
       <img src="assets/project2.png">
-      <h3>Online Texting App</h3>
-      <p>Realtime chat app with authentication.</p>
-      <div class="buttons">
-        <a class="btn">Live Demo</a>
-        <a class="btn secondary">GitHub Code</a>
+      <h3>Clinic Appoitment Application</h3>
+      <p>online pre appoitment app for hassel free booking</p>
+      <div class="card-btns">
+        <a href="https://clinic-appointment-bmmt.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Shikazu777/Clinic-Appointment" target="_blank">GitHub Code</a>
       </div>
     </div>
 
     <div class="card">
       <img src="assets/project3.png">
-      <h3>Gym Admission Page</h3>
-      <p>Form validation with database integration.</p>
-      <div class="buttons">
-        <a class="btn">Live Demo</a>
-        <a class="btn secondary">GitHub Code</a>
+      <h3>TIC TAC TOE</h3>
+      <p>Full Stack Tic Tac Toe Game</p>
+      <div class="card-btns">
+        <a href="https://prodigy-wd-3-mocha.vercel.app/" target="_blank">Live Demo</a>
+        <a href="https://github.com/Shikazu777/PRODIGY_WD_3" target="_blank">GitHub Code</a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CERTIFICATIONS -->
-<section id="certifications" class="section dark">
+<section class="certs">
   <h2>Certifications</h2>
-  <div class="certs">
+  <div class="cert-grid">
     <img src="assets/cert1.png">
     <img src="assets/cert2.png">
     <img src="assets/cert3.png">
   </div>
 </section>
-
-<!-- CONTACT -->
-<section id="contact" class="section dark">
-  <h2>Contact Me</h2>
-  <form class="contact-form">
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <textarea placeholder="Message"></textarea>
-    <button class="btn">Send Message</button>
-  </form>
-</section>
-
-<footer>
-  © 2024 Dhanraj N | All Rights Reserved
-</footer>
 
 </body>
 </html>
