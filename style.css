@@ -232,6 +232,14 @@ section {
   text-align: center;
 }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 36px;
+  margin-top: 48px;
+  align-items: start;
+}
+
 .cert-grid img {
   width: 280px;
   margin: 20px;
