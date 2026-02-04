@@ -12,11 +12,26 @@
 </head>
 <body>
 
-<!-- HERO -->
-<section class="hero">
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO / HOME -->
+<section class="hero" id="home">
   <div class="hero-left">
     <h1>Dhanraj N</h1>
     <h3>Full Stack Developer</h3>
+
+    <!-- 1-line introduction -->
+    <p class="intro">
+      I build practical web applications with clean UI, structured backend logic, and real-world problem focus.
+    </p>
 
     <div class="links">
       <a href="mailto:iamdhanrajn@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
@@ -24,33 +39,30 @@
       <a href="https://www.linkedin.com/in/dhanraj-nagarajan-a9b52537b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
 
-      <a href="resume2.pdf" download>
-  <button type="button" class="resume-btn">
-    Download Resume
-  </button>
-</a>
-
+    <a href="resume2.pdf" download>
+      <button type="button" class="resume-btn">Download Resume</button>
+    </a>
   </div>
 
   <img src="assets/profile.jpg" class="hero-img">
 </section>
 
 <!-- ABOUT -->
-<section class="about">
+<section class="about" id="about">
   <h2>About Me</h2>
   <p>
-    I am a passionate Full Stack Developer with hands-on experience in building responsive, scalable, and user-focused web applications. I enjoy working across the full development lifecycle — from designing clean user interfaces to implementing efficient backend logic and database integration.
-
-I have experience developing real-world projects such as e-commerce platforms, real-time chat applications, and form-driven systems with validation and authentication. My technical skill set includes modern frontend technologies like HTML, CSS, JavaScript, and React, along with backend tools such as Node.js, Express, MongoDB, and MySQL.
-
-I strongly focus on writing clean, maintainable code and following best practices in version control using Git. I enjoy solving problems, learning new technologies, and continuously improving my skills by building practical projects rather than relying only on theory.
-
-I am currently seeking opportunities where I can contribute as a developer, grow alongside an experienced team, and work on impactful products that solve real-world problems.
+    I am a passionate Full Stack Developer with hands-on experience in building responsive,
+    scalable, and user-focused web applications. I work across the full development lifecycle,
+    from designing clean user interfaces to implementing backend logic and database integration.
+    <br><br>
+    I have built real-world projects including interactive frontend applications and full-stack
+    systems using React, Node.js, Express, Python, FastAPI, and SQL. I focus on clean code,
+    maintainability, and learning through practical implementation.
   </p>
 </section>
 
 <!-- SKILLS -->
-<section class="skills">
+<section class="skills" id="skills">
   <h2>Skills</h2>
 
   <div class="skills-cards">
@@ -131,57 +143,85 @@ I am currently seeking opportunities where I can contribute as a developer, grow
 </section>
 
 <!-- PROJECTS -->
-<section class="projects">
+<section class="projects" id="projects">
   <h2>Projects</h2>
 
   <div class="project-grid">
 
-        <div class="card">
+    <!-- CAMPUS APP -->
+    <div class="card">
       <img src="assets/campusapp.png">
-      <h3>All in one Campus App for Students</h3>
-      <p>(work in progress)A campus management application developed using FastAPI (Python) for backend services and SQL for structured data storage. The frontend is built using JavaScript and CSS to handle user interactions and presentation. The application integrates API-based communication between frontend and backend, focusing on data management, service workflows, and real-world campus use cases.</p>
+      <h3>All-in-One Campus App (Work in Progress)</h3>
+      <p>
+        A campus management application built using FastAPI (Python) and SQL for backend data handling,
+        with JavaScript and CSS for the frontend. The project focuses on API-based communication,
+        service workflows, and structured data management.
+      </p>
       <div class="card-btns">
-        <a href="https://campus-app-frontend.vercel.app/" target="_blank">Live Demo(work in progress)</a>
+        <a href="https://campus-app-frontend.vercel.app/" target="_blank">Live Demo (WIP)</a>
         <a href="https://github.com/Shikazu777/campus-app" target="_blank">GitHub Code</a>
       </div>
     </div>
 
+    <!-- PIXELATED PORTFOLIO -->
     <div class="card">
       <img src="assets/project1.png">
-      <h3>Pixelated Portfolio (game)</h3>
-      <p>A mini RPG-style portfolio developed using Vite JS with modern HTML, CSS, and JavaScript. The project is inspired by classic Pokémon emulator games and features a retro, game-like interface with interactive navigation. Vite is used for fast development, modular structure, and optimized performance, while custom styling and UI logic handle transitions and user interactions.</p>
+      <h3>Pixelated Portfolio (Game-Style)</h3>
+      <p>
+        A mini RPG-style portfolio built using Vite JS, HTML, CSS, and JavaScript.
+        Inspired by classic Pokémon games, this project focuses on frontend interactivity,
+        navigation, and creative UI design.
+      </p>
       <div class="card-btns">
         <a href="https://dhanraj-pixel-portfolio.vercel.app/" target="_blank">Live Demo</a>
         <a href="https://github.com/Shikazu777/pixel-portfolio" target="_blank">GitHub Code</a>
       </div>
     </div>
 
+    <!-- CLINIC APP -->
     <div class="card">
       <img src="assets/project2.png">
-      <h3>Clinic Appoitment Application</h3>
-      <p>A clinic appointment management web application built using React for the frontend and Node.js with Express for the backend. The application enables users to book and manage appointments through structured forms and dynamic UI updates. RESTful APIs handle appointment data, while the system focuses on clear workflows, responsive design, and efficient request handling.</p>
+      <h3>Clinic Appointment Application</h3>
+      <p>
+        A full-stack clinic appointment application built using React for the frontend
+        and Node.js with Express for the backend. The project demonstrates REST API usage,
+        form handling, and appointment scheduling workflows.
+        <br><br>
+        <strong>Note:</strong> The live demo link is currently not working.
+      </p>
       <div class="card-btns">
-        <a href="https://clinic-appointment-bmmt.vercel.app/" target="_blank">Live Demo</a>
+        <a href="#" style="pointer-events:none;opacity:0.6;">Live Demo (Unavailable)</a>
         <a href="https://github.com/Shikazu777/Clinic-Appointment" target="_blank">GitHub Code</a>
       </div>
     </div>
 
+    <!-- TIC TAC TOE -->
     <div class="card">
       <img src="assets/project3.png">
-      <h3>TIC TAC TOE</h3>
-      <p>Full Stack Tic Tac Toe Game</p>
+      <h3>Tic Tac Toe Game</h3>
+      <p>
+        A frontend-based Tic Tac Toe game developed using JavaScript, HTML, and CSS,
+        focusing on game logic, UI updates, and user interaction.
+      </p>
       <div class="card-btns">
         <a href="https://prodigy-wd-3-mocha.vercel.app/" target="_blank">Live Demo</a>
         <a href="https://github.com/Shikazu777/PRODIGY_WD_3" target="_blank">GitHub Code</a>
       </div>
     </div>
+
   </div>
+
+  <!-- FULL STACK REQUIREMENTS CLARIFICATION -->
+  <p class="note">
+    <strong>Note:</strong> A complete full-stack application typically includes CRUD operations,
+    authentication (login/logout), user registration, and profile management. These features are
+    being incrementally implemented in ongoing projects.
+  </p>
 </section>
 
 <!-- CERTIFICATIONS -->
-<section class="certs">
+<section class="certs" id="certifications">
   <h2>Certifications</h2>
-
   <div class="cert-grid">
 
     <div class="cert-card">
@@ -216,6 +256,10 @@ I am currently seeking opportunities where I can contribute as a developer, grow
 
   </div>
 </section>
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Dhanraj N. Built with HTML & CSS</p>
+</footer>
 
 </body>
 </html>
