@@ -238,3 +238,33 @@ section {
   border-radius: 8px;
 }
 
+.cert-card {
+  background: #111827;
+  padding: 24px;
+  border-radius: 14px;
+  max-width: 340px;
+  margin: auto;
+}
+
+.cert-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+
+.cert-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.cert-card span {
+  font-size: 0.85rem;
+  color: #9ca3af;
+}
+
+.cert-card p {
+  font-size: 0.95rem;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
