@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <title>Dhanraj N | Full Stack Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="style.css">
 
   <!-- ICONS -->
@@ -29,8 +34,9 @@
 
     <!-- 1-line introduction -->
     <p class="intro">
-      I build practical web applications with clean UI, structured backend logic, and real-world problem focus.
-    </p>
+  I build practical web applications and work with data-driven solutions, combining full-stack development with interests in data science and AI/ML.
+</p>
+
 
     <div class="links">
       <a href="mailto:iamdhanrajn@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
@@ -38,11 +44,12 @@
       <a href="https://www.linkedin.com/in/dhanraj-nagarajan-a9b52537b/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
 
-    <a href="resume2.pdf" target="_blank" download>
+    <a href="resume2.pdf" target="_blank" rel="noopener noreferrer">
   <button type="button" class="resume-btn">
-    Download Resume
+    View Resume
   </button>
 </a>
+
 
   </div>
 
@@ -60,6 +67,8 @@
     I have built real-world projects including interactive frontend applications and full-stack
     systems using React, Node.js, Express, Python, FastAPI, and SQL. I focus on clean code,
     maintainability, and learning through practical implementation.
+    <br><br>
+    Along with technical skills, I bring strong problem-solving abilities, clear communication, and a willingness to learn and adapt. I am comfortable working independently as well as collaborating within a team to deliver practical solutions.
   </p>
 </section>
 
@@ -67,6 +76,8 @@
 <section class="skills" id="skills">
   <h2>Skills</h2>
 
+  <!-- Frontend -->
+  <h3 class="skill-category">Frontend</h3>
   <div class="skills-cards">
 
     <div class="skill-card">
@@ -93,6 +104,12 @@
       <p>Component-based UI development with state and props for scalable applications.</p>
     </div>
 
+  </div>
+
+  <!-- Backend -->
+  <h3 class="skill-category">Backend</h3>
+  <div class="skills-cards">
+
     <div class="skill-card">
       <i class="fa-brands fa-node node"></i>
       <h3>Node.js</h3>
@@ -106,6 +123,24 @@
     </div>
 
     <div class="skill-card">
+      <i class="fa-brands fa-python python"></i>
+      <h3>Python</h3>
+      <p>Scripting, backend logic, and data handling using clean and readable syntax.</p>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-java java"></i>
+      <h3>Java</h3>
+      <p>Object-oriented programming concepts for structured applications.</p>
+    </div>
+
+  </div>
+
+  <!-- Databases -->
+  <h3 class="skill-category">Databases</h3>
+  <div class="skills-cards">
+
+    <div class="skill-card">
       <i class="fa-solid fa-database mongo"></i>
       <h3>MongoDB</h3>
       <p>NoSQL database usage with CRUD operations for application data storage.</p>
@@ -117,17 +152,11 @@
       <p>Relational database design with structured queries and table relationships.</p>
     </div>
 
-    <div class="skill-card">
-      <i class="fa-brands fa-python python"></i>
-      <h3>Python</h3>
-      <p>Scripting, backend logic, and data handling using clean and readable syntax.</p>
-    </div>
+  </div>
 
-    <div class="skill-card">
-      <i class="fa-brands fa-java java"></i>
-      <h3>Java</h3>
-      <p>Object-oriented programming concepts for structured applications.</p>
-    </div>
+  <!-- Tools & Concepts -->
+  <h3 class="skill-category">Tools & Concepts</h3>
+  <div class="skills-cards">
 
     <div class="skill-card">
       <i class="fa-brands fa-git-alt git"></i>
@@ -144,15 +173,19 @@
   </div>
 </section>
 
+
 <!-- PROJECTS -->
 <section class="projects" id="projects">
   <h2>Projects</h2>
+  <br>
 
   <div class="project-grid">
 
     <!-- CAMPUS APP -->
     <div class="card">
-      <img src="assets/campusapp.png">
+      <img src="assets/campusapp.png"
+     alt="Screenshot of the All-in-One Campus App dashboard showing campus features">
+
       <h3>All-in-One Campus App (Work in Progress)</h3>
       <p>
         <strong>Tech:</strong> FastAPI (Python), SQL, JavaScript, CSS
@@ -171,7 +204,9 @@ My contributions include designing RESTful APIs, implementing CRUD operations fo
 
     <!-- PIXELATED PORTFOLIO -->
     <div class="card">
-      <img src="assets/project1.png">
+      <img src="assets/project1.png"
+     alt="Screenshot of the Pixelated RPG-style portfolio inspired by Pokémon games">
+
       <h3>Pixelated Portfolio (Game-Style)</h3>
       <p>
         <strong>Tech:</strong> Vite JS, HTML, CSS, JavaScript
@@ -188,7 +223,9 @@ My contributions include designing the retro UI, implementing interactive naviga
 
     <!-- CLINIC APP -->
     <div class="card">
-      <img src="assets/project2.png">
+      <img src="assets/project2.png"
+     alt="Screenshot of the Clinic Appointment Application interface">
+
       <h3>Clinic Appointment Application</h3>
       <p>
         <strong>Tech:</strong> React, Node.js, Express
@@ -207,7 +244,9 @@ My contributions include designing the retro UI, implementing interactive naviga
 
     <!-- TIC TAC TOE -->
     <div class="card">
-      <img src="assets/project3.png">
+      <img src="assets/project3.png"
+     alt="Screenshot of the Tic Tac Toe game built using JavaScript">
+
       <h3>Tic Tac Toe Game</h3>
       <p>
         <strong>Tech:</strong> HTML, CSS, JavaScript
@@ -236,7 +275,8 @@ My contributions include designing the retro UI, implementing interactive naviga
     <div class="cert-card">
       <img src="assets/cert1.png" alt="Full Stack Development Bootcamp Certificate">
       <h3>Full Stack Development Bootcamp</h3>
-      <span>GUVI | HCL</span>
+      <span>GUVI | HCL — 2026</span>
+
       <p>
         Completed a structured Full Stack Development bootcamp focused on building
         web applications using frontend and backend technologies with hands-on practice.
@@ -246,7 +286,8 @@ My contributions include designing the retro UI, implementing interactive naviga
     <div class="cert-card">
       <img src="assets/cert2.png" alt="International Industrial Visit Certificate">
       <h3>International Industrial Visit</h3>
-      <span>ReSkills</span>
+      <span>ReSkills — 2023</span>
+
       <p>
         Participated in an international industrial visit program that provided exposure
         to industry practices, emerging technologies, and real-world applications.
@@ -256,7 +297,8 @@ My contributions include designing the retro UI, implementing interactive naviga
     <div class="cert-card">
       <img src="assets/cert3.png" alt="International Certificate of Appreciation">
       <h3>International Certificate of Appreciation</h3>
-      <span>Asia Pacific University, Malaysia</span>
+      <span>Asia Pacific University, Malaysia — 2023</span>
+
       <p>
         Received an international certificate of appreciation for participation in an
         academic and technology-focused program with global exposure.
