@@ -408,3 +408,112 @@ section {
   font-size: 0.85rem;
   margin-top: 40px;
 }
+
+
+@media (max-width: 768px) {
+
+  /* GLOBAL */
+  html {
+    font-size: 100%; /* reset from 112.5% for mobile readability */
+  }
+
+  section {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    padding: 14px 24px;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 64px 24px;
+    gap: 40px;
+  }
+
+  .hero-left h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-left h3 {
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .resume-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-img {
+    width: 260px; /* smaller but still prominent */
+  }
+
+  /* ABOUT */
+  .about {
+    padding: 64px 24px;
+  }
+
+  /* SKILLS */
+  .skills {
+    padding: 64px 24px;
+  }
+
+  .skill-category {
+    text-align: center;
+  }
+
+  .skills-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects {
+    padding: 64px 24px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CERTIFICATIONS */
+  .certs {
+    padding: 64px 24px;
+  }
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-card {
+    max-width: 100%;
+  }
+
+  /* CONTACT */
+  .contact {
+    padding: 64px 24px;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 20px;
+  }
+}
