@@ -124,6 +124,49 @@ section {
   line-height: 1.75;
 }
 
+/* EXPERIENCE */
+.experience {
+  padding: 96px;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 48px;
+}
+
+.experience-card {
+  background: var(--bg-secondary);
+  max-width: 900px;
+  margin: auto;
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.experience-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.experience-card span {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  display: block;
+  margin-bottom: 18px;
+}
+
+.experience-card ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.experience-card li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: var(--text-main);
+}
 
 /* SKILLS */
 
@@ -471,6 +514,15 @@ section {
   .about {
     padding: 64px 24px;
   }
+
+    .experience {
+    padding: 64px 24px;
+  }
+
+  .experience-card {
+    padding: 24px;
+  }
+
 
   /* SKILLS */
   .skills {
